@@ -1,0 +1,46 @@
+#profile_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#profile_img p{
+    font-weight: 700;
+    font-size: 20px;
+}
+.btn{
+    font-size: 20px;
+    position: absolute;
+    right:15%;
+    top: 50px;
+    transform: scaleX(-1);
+    padding: 12.5px;
+    border: 1px dashed #98A2B3;
+    border-radius: 50%;
+    color: #98A2B3;
+}
+.img{
+    position: relative;
+}
+.img .camera-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 88px;
+    height: 88px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    z-index: 10;
+    color:transparent ;
+}
+.camera-div .camera{
+    position: absolute;
+    bottom: 10%;
+    left: 42%;
+}
+.img .camera-div:hover{
+    cursor: pointer;
+    background:rgba(0, 0, 0,0.5);
+    color: #F9FAFB;
+}
