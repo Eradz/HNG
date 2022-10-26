@@ -1,7 +1,7 @@
 import React from 'react'
 import {BiShare} from 'react-icons/bi'
 import {FiCamera} from 'react-icons/fi'
-import profile from '../../assets/profile__img.png'
+import profile from '../../assets/chidi.jpg'
 import './home.css'
 export const Home = () => {
   return (
@@ -13,7 +13,8 @@ export const Home = () => {
        <FiCamera className='camera'/> 
        </div>
       </div>
-       <p>Annette Black</p>
+       <p id='twitter'>Anaguchidi35</p>
+       <p id='slack'>Chidiebere</p>
       </div>
       <BiShare className='btn'/>
     </>

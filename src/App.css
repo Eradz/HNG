@@ -7,3 +7,9 @@
   flex-direction: column;
   gap: 32px;
 }
+@media screen and (max-width: 900px) {
+  .app{
+    padding: 64px 16px;
+    
+  }
+}

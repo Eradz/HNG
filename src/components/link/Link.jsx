@@ -5,8 +5,7 @@ import './link.css'
 export const Link = () => {
   return (
     <div className='links'>
-      <a id='twitter' href='https://twitter.com/anaguchidi35?t=7w-IG_UxIgwHm4ulrzpDSA&s=08'
-      >
+      <a className='twitter' href='https://twitter.com/anaguchidi35?t=7w-IG_UxIgwHm4ulrzpDSA&s=08'>
         <p>Twitter Link</p>
       </a>
       <a id='btn_zuri' href='http://training.zuri.team/' >

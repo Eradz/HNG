@@ -1,21 +1,37 @@
 
-#btn_zuri, #books, #book_python, #pitch, #book_design, #twitter{
+#btn_zuri, #books, #book_python, #pitch, #book_design, .twitter{
     text-align: center;
     background: #EAECF0;
     padding: 24px 32px;
     text-decoration: none;
     color: #101828;
     font-weight: 600;
+    border-radius: 8px;
 }
-#twitter{
+.twitter{
     font-weight: 500;
 }
-#twitter p:hover{
+.twitter p:hover{
     text-decoration: underline;
     text-decoration-color:  #7A5AF8;
     text-decoration-thickness: 2px;
 }
-.link:hover{
+#books:hover{
+    border: 1px solid #7A5AF8;
+}
+#book_python:hover{
+    border: 1px solid #7A5AF8;
+}
+#pitch:hover{
+    border: 1px solid #7A5AF8;
+}
+#book_design:hover{
+    border: 1px solid #7A5AF8;
+}
+ .twitter:hover{
+    border: 1px solid #7A5AF8;
+}
+#btn_zuri:hover{
     border: 1px solid #7A5AF8;
 }
 .links{
@@ -35,4 +51,30 @@
     justify-content: center;
     align-items: center;
     gap: 32px;
+}
+
+@media screen and (max-width: 900px) {
+    .links{
+        font-size: 14px;
+    }
+    #books:focus{
+        border: 1px solid #7A5AF8;
+    }
+    #book_python:focus{
+        border: 1px solid #7A5AF8;
+    }
+    #pitch:focus{
+        border: 1px solid #7A5AF8;
+    }
+    #book_design:focus{
+        border: 1px solid #7A5AF8;
+    }
+     .twitter:focus{
+        border: 1px solid #7A5AF8;
+    }
+    #btn_zuri:focus{
+        border: 1px solid #7A5AF8;
+    }
+    
+    
 }
