@@ -53,3 +53,31 @@
 #slack{
     display: none;
 }
+.btn2{
+    display: none;
+}
+.btn:hover{
+    background: #D0D5DD;
+    color: #667085;
+}
+.btn:disabled{
+    background:#F9FAFB;
+    color: #EAECF0;
+}
+.btn:focus{
+    background:#FFFFFF;
+    color: #D0D5DD;
+    box-shadow: 0 0 0 4px #F2F4F7;
+}
+.closed{
+    display: none;
+}
+@media screen and (max-width: 900px) {
+    .btn1{
+        border: 1px solid #98A2B3 ;
+    }
+    .btn2{
+        display: flex;
+    }
+  
+}

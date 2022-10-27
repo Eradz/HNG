@@ -1,9 +1,12 @@
 import React from 'react'
+import { useState } from 'react'
 import {BiShare} from 'react-icons/bi'
+import {BsThreeDots} from 'react-icons/bs'
 import {FiCamera} from 'react-icons/fi'
 import profile from '../../assets/chidi.jpg'
 import './home.css'
 export const Home = () => {
+  const [click , setClick] = useState(false)
   return (
     <>
     <div id='profile_img'>
@@ -16,7 +19,8 @@ export const Home = () => {
        <p id='twitter'>Anaguchidi35</p>
        <p id='slack'>Chidiebere</p>
       </div>
-      <BiShare className='btn'/>
+      <BiShare onClick={() => setClick(false)} className={click? 'btn btn1': 'closed' }/>
+      <BsThreeDots onClick={() => setClick(true)} className={!click? 'btn btn2': "closed"}/>
     </>
   )
 }
