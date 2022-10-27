@@ -70,7 +70,7 @@
     box-shadow: 0 0 0 4px #F2F4F7;
 }
 .closed{
-    display: none;
+    display: block;
 }
 @media screen and (max-width: 900px) {
     .btn1{
@@ -79,5 +79,7 @@
     .btn2{
         display: flex;
     }
-  
+  .closed{
+    display: none;
+  }
 }
