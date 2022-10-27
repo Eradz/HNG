@@ -18,21 +18,27 @@
 }
 #books:hover{
     border: 1px solid #7A5AF8;
+    background: #D0D5DD;
 }
 #book_python:hover{
     border: 1px solid #7A5AF8;
+    background: #D0D5DD;
 }
 #pitch:hover{
     border: 1px solid #7A5AF8;
+    background: #D0D5DD;
 }
 #book_design:hover{
     border: 1px solid #7A5AF8;
+    background: #D0D5DD;
 }
  .twitter:hover{
     border: 1px solid #7A5AF8;
+    background: #D0D5DD;
 }
 #btn_zuri:hover{
     border: 1px solid #7A5AF8;
+    background: #D0D5DD;
 }
 .links{
     display: flex;
@@ -59,21 +65,27 @@
     }
     #books:focus{
         border: 1px solid #7A5AF8;
+        background: #D0D5DD;
     }
     #book_python:focus{
         border: 1px solid #7A5AF8;
+        background: #D0D5DD;
     }
     #pitch:focus{
         border: 1px solid #7A5AF8;
+        background: #D0D5DD;
     }
     #book_design:focus{
         border: 1px solid #7A5AF8;
+        background: #D0D5DD;
     }
      .twitter:focus{
         border: 1px solid #7A5AF8;
+        background: #D0D5DD;
     }
     #btn_zuri:focus{
         border: 1px solid #7A5AF8;
+        background: #D0D5DD;
     }
     
     
