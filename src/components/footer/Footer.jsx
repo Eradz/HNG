@@ -5,12 +5,12 @@ export const Footer = () => {
   return (
     <div className='contain'>
     <div className='zuri'>
-        <p>Zuri</p>
+        <span>Zuri</span>
         <div className='dot'></div>
-        <p>Internship</p>
+        <span>Internship</span>
     </div>
     <div className='hng'>
-        <p>HNG Internship 9 Frontend Task</p>
+        <span>HNG Internship 9 Frontend Task</span>
     </div>
     <div className='zuri-img'>
         <img src={ig} alt='I4G' />

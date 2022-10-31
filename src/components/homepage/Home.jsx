@@ -13,11 +13,11 @@ export const Home = () => {
       <div className='img'>
        <img src={profile} alt='profile' />
        <div className='camera-div'>
-       <FiCamera className='camera'/> 
+       <FiCamera  className='camera'/> 
        </div>
       </div>
-       <p id='twitter'>Anaguchidi35</p>
-       <p id='slack'>Chidiebere</p>
+       <span id='twitter'>Anaguchidi35</span>
+       <span id='slack'>Chidiebere</span>
       </div>
       <BiShare onClick={() => setClick(false)} className={click? 'btn btn1': 'btn btn1 closed ' }/>
       <BsThreeDots onClick={() => setClick(true)} className={!click? 'btn btn2': "closed"}/>
